@@ -1,0 +1,72 @@
+body {
+    background-color: aquamarine !important;
+}
+
+nav {
+    margin-bottom: 0px !important;
+}
+
+#main {
+    background-color: black;
+}
+
+#board {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+#container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#heading {
+    background-color: gray;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 1em;
+}
+.modal-header{
+    background-color: gray;
+    border-radius: 1em 1em 0em 0em;
+}
+
+.modal-footer{
+    background-color: gray;
+    border-radius: 0em 0em 1em 1em;
+}
+
+.modal-content {
+    border-radius: 1em;
+}
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    float: right;
+}
+
+.heading {
+    font-size: 1.5em;
+    padding-left: 1em;
+}
+button {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#taskList {
+    background-color: white;
+    
+}
+#taskList .item {
+    list-style: none;
+    padding: 1em;
+    border-top: 1px solid black;
+}
