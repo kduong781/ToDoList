@@ -56,6 +56,13 @@ nav {
     font-size: 1.5em;
     padding-left: 1em;
 }
+
+.selectable, .selected {
+    background-color: #b3b3b3;
+    display: all !important;
+}
+
+
 button {
     margin-left: 1em;
     margin-right: 1em;
@@ -63,7 +70,7 @@ button {
 
 #taskList {
     background-color: white;
-    
+
 }
 #taskList .item {
     list-style: none;
