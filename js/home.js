@@ -24,6 +24,7 @@ var main = function() {
           }
         );
 
+
         $('#taskList').on('mouseenter', '.item', function( event ) {
             $(this).addClass("selectable");
         }).on('mouseleave', '.item', function( event ) {
@@ -38,6 +39,7 @@ var main = function() {
           }
         );*/
         $('#taskList').on('click','.item',function() {
+          $('.item').removeClass('selected');
           $(this).toggleClass('selected');
           $('> .itemDesc', this).slideToggle('slow');
         }

@@ -62,6 +62,9 @@ nav {
     display: all !important;
 }
 
+.itemDesc {
+  display: none;
+}
 
 button {
     margin-left: 1em;
